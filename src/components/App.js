@@ -5,7 +5,11 @@ const App = () => {
 
     return (
         <div>
-            <CountButton />
+            <CountButton incrementBy={1} buttonColor={"blue"}/>
+            <CountButton incrementBy={5} buttonColor={"red"}/>
+            <CountButton incrementBy={7} buttonColor={"green"}/>
+            <CountButton incrementBy={10} buttonColor={"yellow"}/>
+            <CountButton incrementBy={99} buttonColor={"violet"}/>
         </div>
     )
 }
