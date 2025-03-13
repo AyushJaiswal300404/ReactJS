@@ -1,11 +1,11 @@
 import React from 'react'
+import CountButton from './CountBtn'
 
 const App = () => {
-    const myItem = "Harry"
 
     return (
         <div>
-            <h1>Hello, {myItem}</h1>
+            <CountButton />
         </div>
     )
 }
